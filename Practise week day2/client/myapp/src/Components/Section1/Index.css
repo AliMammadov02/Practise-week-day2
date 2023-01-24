@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.section1{
+    background: rgb(249,249,252);
+    background: linear-gradient(90deg, rgba(249,249,252,1) 35%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); ;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 3rem;
+
+}
+
+.section1Image{
+    background-image: url(https://preview.colorlib.com/theme/aroma/img/home/hero-banner.png.webp);
+    width: 462px;
+    height: 700px;
+}
+
+.section1Title{
+    width: 462px;
+    height: 700px;
+}
+
+.section1H3{
+    font-size: 2rem;
+}
+.section1H1{
+    font-size: 3rem;
+}
+
+.section1Button{
+    width: 168px;
+    height: 51px;
+    border-radius: 24px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding-top: 0.6rem;
+}

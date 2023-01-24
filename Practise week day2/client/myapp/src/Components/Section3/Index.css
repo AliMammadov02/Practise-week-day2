@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.section3{
+    background-image: url('file:///C:/Users/Ali%20Mammadov/Desktop/parallax-bg.png.webp') no-repeat center top / cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 5rem;
+}
+
+
+.section3Title{
+    position: absolute;
+    top: 2300px;
+    left: 25rem;
+    text-align: center;
+    
+}
+
+.section3Button{
+    width: 170px;
+    height: 51px;
+    background-color: #384aeb;
+    border-radius: 24px;
+    padding-top: 0.6rem;
+    color: white;
+    margin-left: 3rem;
+}

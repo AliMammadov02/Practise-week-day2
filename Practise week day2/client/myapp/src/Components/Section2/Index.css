@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.section2Cards{
+    width: 100%;
+    height: 50vh;
+}
+
+.section2Card1{
+    background-image: url('https://preview.colorlib.com/theme/aroma/img/home/hero-slide1.png.webp');
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 4rem;
+}
+
+.Card{
+    text-align: center;
+}
+.section2Title{
+    padding: 4rem 6rem;
+}

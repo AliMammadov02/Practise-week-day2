@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    background-color: white;
+    position: sticky;
+    top: 0.000001px;
+
+}
+.Navlist{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+.NavButton{
+    text-align: center;
+    padding-top:0.5rem ;
+    background-color: yellowgreen;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
